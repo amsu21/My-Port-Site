@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>AMSU WARNER</title>
+  </head>
+  <body>
+    <!-- GRID -->
+    <nav class="site-nav grid">
+      <h1>Amsu Warner</h1>
+      <ul class="nav-links">
+        <li><a href="#portfolio" class="portfolio-tapped">Portfolio</a></li>
+        <li><a href="#skills" class="skills-tapped">Skills</a></li>
+        <li><a href="#contact" class="contact-tapped">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!-- GRID -->
+    <section id="welcome" class="grid">
+      <div class="welcome-text">
+        <h2>Student <br />& Aspiring Software Developer</h2>
+        <p class="leading">
+          My name is <span>Amsu Warner</span> <br />
+          Welcome to my portfolio website.
+        </p>
+        <a href="#portfolio" class="button">My work</a>
+        <a href="./assets/Amsu Warner Resume.pdf" target="_blank" class="button"
+          >My Resume</a
+        >
+      </div>
+      <div class="welcome-image">
+        <img src="assets/banner_image.png" alt="image of planet" />
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <!-- THIS IS LINKED TO OUR ANCHOR TAG ON TOP -->
+      <h3>My Projects</h3>
+
+      <!-- GRID -->
+      <div class="projects grid">
+        <!-- GRID ITEMS -->
+        <a href="https://yoursimplestudio.com/" target="_blank">
+          <img src="./img/beatmakershot.png" alt="space race img" />
+          <h4>Beatmaker</h4>
+        </a>
+        <!-- GRID ITEMS -->
+        <a href="https://yourcoloor.com/" target="_blank">
+          <img src="./img/coloorsshot.png" alt="planet boy img" />
+          <h4>Your Coloor</h4>
+        </a>
+        <!-- GRID ITEMS -->
+        <a href="">
+          <img src="./img/coming-soon.jpg" alt="captain cosmo blog img" />
+          <h4>???</h4>
+        </a>
+      </div>
+    </section>
+
+    <section id="skills">
+      <!-- THIS IS LINKED TO OUR ANCHOR TAG ON TOP -->
+      <h3>My Skills</h3>
+
+      <!-- GRID -->
+      <ul class="grid">
+        <li>
+          <img src="assets/comet_1.svg" alt="comet" />
+          <h4>HTML/CSS</h4>
+        </li>
+        <li>
+          <img src="assets/comet_2.svg" alt="comet" />
+          <h4>JavaScript</h4>
+        </li>
+        <li>
+          <img src="assets/comet_3.svg" alt="comet" />
+          <h4>Python</h4>
+        </li>
+        <li>
+          <img src="assets/comet_4.svg" alt="comet" />
+          <h4>GitHub</h4>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <!-- THIS IS LINKED TO OUR ANCHOR TAG ON TOP -->
+      <h3>Get in touch</h3>
+      <p class="leading">Feel free to contact me.</p>
+      <form action="https://formspree.io/xaypvgqe" method="POST">
+        <input type="text" placeholder="NAME" required />
+        <input type="email" placeholder="EMAIL" name="_replyto" required />
+        <textarea placeholder="YOUR MESSAGE"></textarea>
+        <button class="button">Send Flare</button>
+      </form>
+    </section>
+
+    <footer>
+      <!-- GRID -->
+      <div class="grid">
+        <p class="copyright">Copyright 2020 Amsu Warner</p>
+        <ul class="social">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/amsu-warner-20a408186/"
+              target="_blank"
+              ><img src="./icons/icons8-linkedin.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/amsu21" target="_blank"
+              ><img src="./icons/icons8-github.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
